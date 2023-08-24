@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gentium Basic', serif;
+}
+
+.navtransition {
+  transition: background-color 0.3s ease;
+}
+
+.navtransition.scrolled {
+  background-color: #333;
+}
+
+.content {
+  font-weight: 400;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 25px;
+}
+
+.logo-img {
+  margin-top: 6px;
+  margin-left: 12px;
+}
+
+
+.navbar-brand {
+  text-align: left;
+}
+
+.navbar-heading {
+  color: rgba(255, 255, 255, 1);
+  font-family: Lora, serif;
+}
+
+.content p {
+  font-weight: 400;
+  line-height: 1.6667;
+  margin-top: 12px;
+  font-size: 14pt;
+}
+
+.hr {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+
+.center-heading {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.carousel-item {
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 768px) {
+  .carousel-item img {
+   height: 200px;
+  }
+  .logo-responsive{
+    margin-top: 30px;
+  }
+}
+.carousel-controls-hover .carousel-control {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.carousel-controls-hover:hover .carousel-control {
+  opacity: 1;
+}
+
+.whatsapp-icon {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  background-color: green;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  z-index: 1000;
+}
+
+.whatsapp-icon:hover {
+  background-color: white;
+  color: green;
+}
+
+.picture-container{
+margin-top: 70px;
+}
+
+footer {
+  background-color: lightgray;
+  color: black;
+  padding: 20px;
+}
+
+footer h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+footer p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+footer .contact-info {
+  font-size: 18px;
+  text-align: center;
+}
+
+
+.highlight {
+  color: black;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.info {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.info h2 {
+  font-size: 18px;
+  margin-bottom: 18px;
+  color: #333;
+}
+
+
+.content-container {
+  padding: 10px;
+  text-align: left;
+  align-items: center;
+}
+.container-margin-40{
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container-img:hover .image {
+  opacity: 0.3;
+}
+
+.container-img:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.container-img {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
